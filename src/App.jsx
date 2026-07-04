@@ -6,14 +6,14 @@ import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
 
 // Pages
-import Home from "./pages/Home";
-import SearchResults from "./pages/SearchResults";
-import Booking from "./pages/Booking";
-import Success from "./pages/Success";
-import MyBookings from "./pages/MyBookings";
-import Contact from "./pages/Contact";
-import Login from "./pages/Login";
-import Register from "./pages/Register";
+import Home from "./Pages/Home";
+import SearchResults from "./Pages/SearchResults";
+import Booking from "./Pages/Booking";
+import Success from "./Pages/Success";
+import MyBookings from "./Pages/MyBookings";
+import Contact from "./Pages/Contact";
+import Login from "./Pages/Login";
+import Register from "./Pages/Register";
 
 // Main App component - sets up routing for the whole application
 function App() {
