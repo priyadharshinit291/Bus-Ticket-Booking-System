@@ -1,7 +1,7 @@
 import React, { useMemo } from "react";
 import { useLocation } from "react-router-dom";
 import BusList from "../Components/BusList";
-import buses from "../Data/buses";
+import buses from "../Data/Buses";
 
 // Reads ?from=&to=&date= from the URL and filters the dummy bus list
 function SearchResults() {

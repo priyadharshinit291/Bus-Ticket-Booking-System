@@ -22,14 +22,14 @@ function Booking() {
   const [passengers, setPassengers] = useState([]);
 
   // Whenever selected seats change, keep the passengers array in sync (one entry per seat)
-  // useEffect(() => {
-  //   setPassengers((prev) =>
-  //     selectedSeats.map((seat) => {
-  //       const existing = prev.find((p) => p.seat === seat);
-  //       return existing || { seat, name: "", age: "", gender: "", mobile: "", email: "" };
-  //     })
-  //   );
-  // }, [selectedSeats]);
+  useEffect(() => {
+    setPassengers((prev) =>
+      selectedSeats.map((seat) => {
+        const existing = prev.find((p) => p.seat === seat);
+        return existing || { seat, name: "", age: "", gender: "", mobile: "", email: "" };
+      })
+    );
+  }, [selectedSeats]);
 
   if (!bus) {
     return (
