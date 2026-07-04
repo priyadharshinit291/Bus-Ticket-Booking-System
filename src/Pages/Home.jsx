@@ -1,5 +1,5 @@
 import React from "react";
-import SearchForm from "../components/SearchForm";
+import SearchForm from "../Components/SearchForm";
 
 // Landing page: hero banner + search form
 function Home() {

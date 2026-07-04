@@ -1,9 +1,9 @@
-import React, { useState, useEffect } from "react";
+ 
 import { useParams, useLocation, useNavigate } from "react-router-dom";
-import SeatSelection from "../components/SeatSelection";
-import PassengerForm from "../components/PassengerForm";
-import BookingSummary from "../components/BookingSummary";
-import buses from "../data/buses";
+import SeatSelection from "../Components/SeatSelection";
+import PassengerForm from "../Components/PassengerForm";
+import BookingSummary from "../Components/BookingSummary";
+import buses from "../Data/Buses";
 
 // Multi-step booking page: Seat Selection -> Passenger Details -> Summary
 function Booking() {
@@ -22,14 +22,14 @@ function Booking() {
   const [passengers, setPassengers] = useState([]);
 
   // Whenever selected seats change, keep the passengers array in sync (one entry per seat)
-  useEffect(() => {
-    setPassengers((prev) =>
-      selectedSeats.map((seat) => {
-        const existing = prev.find((p) => p.seat === seat);
-        return existing || { seat, name: "", age: "", gender: "", mobile: "", email: "" };
-      })
-    );
-  }, [selectedSeats]);
+  // useEffect(() => {
+  //   setPassengers((prev) =>
+  //     selectedSeats.map((seat) => {
+  //       const existing = prev.find((p) => p.seat === seat);
+  //       return existing || { seat, name: "", age: "", gender: "", mobile: "", email: "" };
+  //     })
+  //   );
+  // }, [selectedSeats]);
 
   if (!bus) {
     return (
