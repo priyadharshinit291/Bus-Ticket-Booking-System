@@ -1,8 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-// Bootstrap 5 CSS and JS bundle (includes Popper for dropdowns, modals etc.)
-import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap/dist/js/bootstrap.bundle.min.js";
+// Note: Bootstrap 5 CSS/JS is loaded via CDN in public/index.html,
+// so it's not imported here. This avoids it being loaded twice.
 import "./App.css";
 import App from "./App";
 
