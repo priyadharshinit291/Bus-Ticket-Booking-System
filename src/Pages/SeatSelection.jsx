@@ -2,9 +2,9 @@ import { useMemo, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { FaArrowLeft, FaMapMarkerAlt } from 'react-icons/fa';
-import { generateSeatMap, boardingPoints, droppingPoints } from '../data/buses';
-import { useBooking } from '../context/BookingContext';
-import StepTrack from '../components/StepTrack';
+import { generateSeatMap, boardingPoints, droppingPoints } from '../Data/Buses';
+import { useBooking } from '../Context/BookingContext';
+import StepTrack from '../Components/StepTrack';
 
 export default function SeatSelection() {
   const { selectedBus, selectedSeats, setSelectedSeats, boarding, setBoarding, dropping, setDropping } = useBooking();

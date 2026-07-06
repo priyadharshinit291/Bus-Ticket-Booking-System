@@ -1,18 +1,18 @@
 import { Routes, Route } from 'react-router-dom';
 import { AnimatePresence, motion } from 'framer-motion';
 import { useLocation } from 'react-router-dom';
-import Navbar from './components/Navbar';
-import Footer from './components/Footer';
-import Home from './pages/Home';
-import SearchResults from './pages/SearchResults';
-import SeatSelection from './pages/SeatSelection';
-import PassengerDetails from './pages/PassengerDetails';
-import Confirmation from './pages/Confirmation';
-import MyTickets from './pages/MyTickets';
-import Login from './pages/Login';
-import Signup from './pages/Signup';
-import { BookingProvider } from './context/BookingContext';
-import { AuthProvider } from './context/AuthContext';
+import Navbar from './Components/Navbar';
+import Footer from './Components/Footer';
+import Home from './Pages/Home';
+import SearchResults from './Pages/SearchResults';
+import SeatSelection from './Pages/SeatSelection';
+import PassengerDetails from './Pages/PassengerDetails';
+import Confirmation from './Pages/Confirmation';
+import MyTickets from './Pages/MyTickets';
+import Login from './Pages/Login';
+import Signup from './Pages/Signup';
+import { BookingProvider } from './Context/BookingContext';
+import { AuthProvider } from './Context/AuthContext';
 
 function AnimatedPage({ children }) {
   return (

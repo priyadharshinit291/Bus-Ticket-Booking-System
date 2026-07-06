@@ -1,9 +1,9 @@
 import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { FaCheckCircle, FaBusAlt, FaDownload, FaMapMarkerAlt } from 'react-icons/fa';
-import { useBooking } from '../context/BookingContext';
-import StepTrack from '../components/StepTrack';
-import TicketDivider from '../components/TicketDivider';
+import { useBooking } from '../Context/BookingContext';
+import StepTrack from '../Components/StepTrack';
+import TicketDivider from '../Components/TicketDivider';
 
 export default function Confirmation() {
   const { selectedBus, selectedSeats, passenger, boarding, dropping, pnr } = useBooking();

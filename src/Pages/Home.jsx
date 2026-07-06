@@ -2,8 +2,8 @@ import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { FaExchangeAlt, FaMapMarkerAlt, FaRegCalendarAlt, FaShieldAlt, FaTicketAlt, FaHeadset } from 'react-icons/fa';
-import { cities, popularRoutes } from '../data/buses';
-import { useBooking } from '../context/BookingContext';
+import { cities, popularRoutes } from '../Data/Buses';
+import { useBooking } from '../Context/BookingContext';
 
 function todayISO() {
   return new Date().toISOString().split('T')[0];
