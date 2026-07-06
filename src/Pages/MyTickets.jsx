@@ -1,7 +1,7 @@
 import { useNavigate } from 'react-router-dom';
 import { FaTicketAlt } from 'react-icons/fa';
-import { useBooking } from './context/BookingContext';
-import TicketDivider from './Components/TicketDivider';
+import { useBooking } from '../context/BookingContext';
+import TicketDivider from '../Components/TicketDivider';
 
 export default function MyTickets() {
   const { pnr, selectedBus, selectedSeats } = useBooking();

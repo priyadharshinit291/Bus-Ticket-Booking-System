@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Link, useNavigate, useLocation } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { FaBusAlt, FaUserPlus } from 'react-icons/fa';
-import { useAuth } from './context/AuthoCntext';
+import { useAuth } from '../context/AuthoCntext';
 
 export default function Signup() {
   const { signup } = useAuth();

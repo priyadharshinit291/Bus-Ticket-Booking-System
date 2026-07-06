@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { FaArrowLeft, FaMapMarkerAlt } from 'react-icons/fa';
 import { generateSeatMap, boardingPoints, droppingPoints } from '../data/Buses';
-import { useBooking } from './context/BookingContext';
+import { useBooking } from '../context/BookingContext';
 import StepTrack from '../Components/StepTrack';
 
 export default function SeatSelection() {
