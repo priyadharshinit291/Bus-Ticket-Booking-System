@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { FaArrowLeft, FaUser, FaCreditCard } from 'react-icons/fa';
-import { useBooking } from '../Context/BookingContext';
+import { useBooking } from '../context/BookingContext';
 import StepTrack from '../Components/StepTrack';
 
 function generatePNR() {

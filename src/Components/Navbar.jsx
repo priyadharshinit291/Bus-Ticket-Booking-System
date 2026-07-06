@@ -1,6 +1,6 @@
 import { Link, NavLink, useNavigate } from 'react-router-dom';
 import { FaBusAlt, FaUserCircle } from 'react-icons/fa';
-import { useAuth } from '../Context/AuthContext';
+import { useAuth } from '../context/AuthContext';
 
 export default function Navbar() {
   const { user, logout } = useAuth();

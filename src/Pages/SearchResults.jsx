@@ -6,7 +6,7 @@ import {
 } from 'react-icons/fa';
 import { GiRolledCloth } from 'react-icons/gi';
 import { generateBuses } from '../Data/Buses';
-import { useBooking } from '../Context/BookingContext';
+import { useBooking } from '../context/BookingContext';
 import TicketDivider from '../Components/TicketDivider';
 import StepTrack from '../Components/StepTrack';
 
