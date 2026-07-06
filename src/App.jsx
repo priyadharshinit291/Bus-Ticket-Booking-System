@@ -11,8 +11,8 @@ import Confirmation from './Pages/Confirmation';
 import MyTickets from './Pages/MyTickets';
 import Login from './Pages/Login';
 import Signup from './Pages/Signup';
-import { BookingProvider } from './Context/BookingContext';
-import { AuthProvider } from './Context/AuthContext';
+import { BookingProvider } from '../Context/BookingContext';
+import { AuthProvider } from '../Context/AuthContext';
 
 function AnimatedPage({ children }) {
   return (
