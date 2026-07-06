@@ -5,7 +5,7 @@ import {
   FaStar, FaWifi, FaBolt, FaTint, FaTv, FaSuitcaseRolling, FaFilter, FaArrowLeft,
 } from 'react-icons/fa';
 import { GiRolledCloth } from 'react-icons/gi';
-import { generateBuses } from '../Data/Buses';
+import { generateBuses } from '../data/Buses';
 import { useBooking } from '../context/BookingContext';
 import TicketDivider from '../Components/TicketDivider';
 import StepTrack from '../Components/StepTrack';

@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { FaExchangeAlt, FaMapMarkerAlt, FaRegCalendarAlt, FaShieldAlt, FaTicketAlt, FaHeadset } from 'react-icons/fa';
-import { cities, popularRoutes } from '../Data/Buses';
+import { cities, popularRoutes } from '../data/Buses';
 import { useBooking } from '../context/BookingContext';
 
 function todayISO() {
